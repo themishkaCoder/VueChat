@@ -16,7 +16,7 @@ module.exports = {
     module: {
         rules:[
             {
-                test: /\scss\.scss$/,
+                test: /\.scss$/,
                 // use: ExtractTextPlugin.extract({
                 //     fallback: "style-loader",
                 //     use: ["css-loader", MiniCssExtractPlugin, "sass-loader"]
