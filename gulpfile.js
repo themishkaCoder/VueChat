@@ -26,17 +26,19 @@ gulp.task("compressHtml", function(){
 
 gulp.task("compressJs", function(){
     return gulp.src('public/js/*.js')
-    .pipe(babel({
-        presets: ['@babel/env']
-    }))
-    .pipe(uglify())
+    // .pipe(babel({
+    //     presets: ['env'],
+    //     plugins: ["@babel/plugin-transform-modules-umd"]
+
+    // }))
+    // .pipe(uglify())
     .pipe(gulp.dest('dist/js'))
 })
 
 gulp.task("compressServer", function(){
     return gulp.src('server.js')
     .pipe(babel({
-        presets: ['@babel/env']
+        // presets: ['@babel/env']
     }))
     .pipe(uglify())
     .pipe(gulp.dest('dist'))

@@ -1,1 +1,14 @@
-"use strict";var _content=_interopRequireDefault(require("./content"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var app=new Vue({el:"#app",data:{info:_content.default.article_first}});
+import all_articles from "./content.js";
+
+
+var app = new Vue({
+    el: "#app",
+    data: {
+        info: all_articles.article_first.title,
+        menu:{
+            main: "Main",
+            help: "Help"
+        }
+    }
+})
+

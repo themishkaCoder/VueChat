@@ -7,6 +7,12 @@
 }
 
 body{
-    background-image: url("../images/parallax.jpg");
+    //background-image: url("../images/parallax.jpg");
+}
 
+.parallax{
+    background: url("../images/parallax.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
 }

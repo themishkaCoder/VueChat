@@ -10,5 +10,4 @@ var all_articles = {
 }
 
 
-
 export default all_articles

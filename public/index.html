@@ -6,15 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+
     <div id="app">
-        <h1> {{info.title}} </h1>
+        <div class="container-fluid parallax">
+            <h1></h1>
+        </div>
+        <h1> {{ info }} </h1>
+        <h2> {{ menu.main }}</h2>
+        
     </div>
 
 
 
+    <!-- Vue js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="js/index.js"></script>
+    
+    <!-- Other scripts -->
+    <script type="module" src="js/index.js"></script>
 </body>
 </html>

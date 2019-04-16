@@ -1,1 +1,1 @@
-@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic");*{padding:0;margin:0;font-family:'PT Sans', sans-serif}body{background-image:url("../images/parallax.jpg")}
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic");*{padding:0;margin:0;font-family:'PT Sans', sans-serif}.parallax{background:url("../images/parallax.jpg") no-repeat center;background-size:cover;background-attachment:fixed;height:500px}
