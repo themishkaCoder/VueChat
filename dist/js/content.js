@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var all_articles={article_first:{title:"Hello World",desc:"First Vue code",date:"16.04.2019"}},_default=all_articles;exports.default=_default;
