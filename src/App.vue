@@ -36,6 +36,7 @@
 
           <Sider hide-trigger :style="{background: '#fff'}">
             <h2>News</h2>
+            <News></News>
           </Sider>
           
         </Layout>
@@ -49,13 +50,15 @@
 import Test from "./components/Test";
 import Main from "./components/Main";
 import User from "./components/User";
+import News from "./components/News"
 
 export default {
   name: "App",
   components: {
     Test,
     Main,
-    User
+    User,
+    News
   }
 };
 </script>
